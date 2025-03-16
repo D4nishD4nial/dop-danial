@@ -20,7 +20,9 @@
 
 
         <header class="w-full lg:max-w-4xl max-w-[335px] text-sm mb-6 not-has-[nav]:hidden">
-    
+            <div class="mb-4">
+        <img src="{{ asset('images/pb_logo.png') }}" alt="PB Logo" class="mx-auto">
+    </div>
             @if (Route::has('login'))
                 <nav class="flex items-center justify-end gap-4">
                     @auth
