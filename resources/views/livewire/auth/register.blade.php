@@ -31,7 +31,7 @@ new #[Layout('components.layouts.auth')] class extends Component {
 
         Auth::login($user);
 
-        return redirect()->intended(route('dashboard', absolute: false));
+        $this->redirectIntended(route('dashboard', absolute: false), navigate: true);
     }
 }; ?>
 
