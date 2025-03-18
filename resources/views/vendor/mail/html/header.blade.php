@@ -5,7 +5,7 @@
         <tr>
             <td class="align-center">
                 <a href="{{ config('app.url') }}" style="display: inline-block;">
-                    <<img src="pblogo.png" alt="" class="w-20 h-20 mb-6"> 
+                    <img src="pblogo.png" alt="" class="w-20 h-20 mb-6"> 
                 </a>
             </td>
         </tr>
